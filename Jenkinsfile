@@ -8,7 +8,7 @@ pipeline{
             }
             stage("Test"){
                 steps{
-                    sh "mvn --projects webproject test"
+                    sh "mvn test"
                 }
             }
                
