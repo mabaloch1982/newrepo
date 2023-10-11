@@ -3,7 +3,7 @@ pipeline{
         stages{
             stage("Build"){
                 steps{
-                    sh "mvn /webproject/POM.xml -DskipTests clean package" 
+                    sh "mvn /webproject/POM.xml -DskipTests clean package"
                 }
             }
             stage("Test"){
